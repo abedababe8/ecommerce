@@ -32,7 +32,6 @@ document.addEventListener('DOMContentLoaded', function(){
   navBar.appendChild(navBrand)
   navBar.appendChild(navOptions)
 
-
   const cart = document.createElement('a')
   navOptions.appendChild(cart)
     cart.innerHTML = `<i class="fas fa-shopping-cart"></i>`
@@ -41,11 +40,4 @@ document.addEventListener('DOMContentLoaded', function(){
 
     renderCart()
   })
-  const signupButton = document.querySelector('#email-signup-button')
-  signupButton.addEventListener('click', ()=> {
-    console.log(event)
-    validateEmail()
-  })
-
-
 })
